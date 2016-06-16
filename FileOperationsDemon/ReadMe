@@ -1,0 +1,7 @@
+
+* 沙盒中包含三个文件夹：Documents、Library、tmp
+1、Documents：程序创建或应用浏览产生的文件数据
+2、Library：程序的默认设置或状态信息保存在该目录
+3、tmp：提供一个即时创建临时文件的地方，但不需要持久化
+4、Library/Caches：存放缓存文件，iTunes不会备份此目录，此目录下文件不会在应用退出删除。
+5、Library/Preferences：应用程序偏好设置，我们经常使用的NSUserDefault就保存在该目录下的一个Plist文件中，iTnues还会同步此文件。
